@@ -68,7 +68,7 @@ const CustomerDetail = () => {
 // Simple Home Component
 const Home = () => (
   <div style={{ padding: '20px' }}>
-    <h1>CRM V10 Dashboard</h1>
+    <h1>CRM V11 Dashboard</h1>
     <p>Welcome to the new Clean Architecture CRM.</p>
     <Link to="/customers">View Customers</Link>
   </div>

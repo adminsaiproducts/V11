@@ -23,8 +23,8 @@ export const Config = {
   },
 
   // System Constants
-  APP_NAME: 'CRM V9',
-  VERSION: '9.0.0',
+  APP_NAME: 'CRM V11',
+  VERSION: '11.0.0',
 };
 
 /**

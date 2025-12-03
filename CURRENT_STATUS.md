@@ -5,9 +5,9 @@
 | 項目 | 値 |
 | :--- | :--- |
 | プロジェクト名 | CRM V11 System |
-| GAS Script ID | `1VfMFCIYmI_tmh0BCTMxhKiNYdQC7fRImlKktZjC5T0tHTd4zN5trZ8nT` |
-| GAS Editor URL | https://script.google.com/d/1VfMFCIYmI_tmh0BCTMxhKiNYdQC7fRImlKktZjC5T0tHTd4zN5trZ8nT/edit |
-| Web App URL | https://script.google.com/macros/s/AKfycbxLcV5Kt-8BGZZ_X8Hac-bunXTUmVC6AYdh8PjweN9slnofyNAvgmAfXltQS5SbGRV2HQ/exec |
+| GAS Script ID | `1jQeCJBlZM5z-Fm6cdpDXMT3cpk4CPwNJCwAo0bwHpJcvbazEL3g_sRXu` |
+| GAS Editor URL | https://script.google.com/d/1jQeCJBlZM5z-Fm6cdpDXMT3cpk4CPwNJCwAo0bwHpJcvbazEL3g_sRXu/edit |
+| Web App URL | https://script.google.com/macros/s/AKfycbyDNXYAU_13__qbMABB2qsr0ovF95uuWrlnrTIIqfpjeApc1AjdPSDo2oZSigmBx1u7/exec |
 | GitHub Repository | https://github.com/adminsaiproducts/V11 |
 | Firestore Database | `crm-database-v9` (GCP: `crm-appsheet-v7`) |
 
@@ -98,3 +98,6 @@ dist/
 | 2025-12-03 | FIX | doGet関数のパラメータ安全対策（e?.parameter） | ✅ Done |
 | 2025-12-03 | SETUP | 新GASプロジェクト再作成（旧IDが無効になったため） | ✅ Done |
 | 2025-12-03 | DEPLOY | V11 doGet fix (v1) デプロイ完了 | ✅ Done |
+| 2025-12-03 | FIX | gas-build.jsにBase64エンコーディング追加（SyntaxError修正） | ✅ Done |
+| 2025-12-03 | SETUP | 新GASプロジェクト作成（旧ID無効のため再作成） | ✅ Done |
+| 2025-12-03 | DEPLOY | V11 Base64 Fix (v1) デプロイ完了 | ✅ Done |
