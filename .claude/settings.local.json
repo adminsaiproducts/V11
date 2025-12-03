@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start:*)",
+      "Bash(clasp clone:*)",
+      "Bash(del \"c:\\Users\\satos\\OneDrive\\○大西\\〇新CRMプロジェクト\\Githubとの連携リポジトリ宛先\\V10\\.clasp.json\")",
+      "Bash(clasp create:*)",
+      "Bash(gh repo view:*)",
+      "Bash(xcopy:*)",
+      "Bash(powershell -Command:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

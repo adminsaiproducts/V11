@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Build outputs
+dist/
+
+# Secrets
+config/serviceAccount.json
+config/crm-v7-automation.json
+config/*.json
+secrets/
+
+# IDE
+.vscode/
+.idea/
+
+# Debug files
+debug-*.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
