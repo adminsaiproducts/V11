@@ -1,4 +1,4 @@
-// src/main.ts - GAS Entry Point for CRM V10 (Aligned with V9 Pattern)
+// src/main.ts - GAS Entry Point for CRM V11
 import { CustomerService } from './services/CustomerService';
 
 /**
@@ -6,9 +6,11 @@ import { CustomerService } from './services/CustomerService';
  * Note: We avoid createTemplateFromFile because its scriptlet processing
  * breaks JavaScript code containing :// patterns (treats them as comments)
  */
-function doGet(e: GoogleAppsScript.Events.DoGet) {
+function doGet(e?: GoogleAppsScript.Events.DoGet) {
   try {
-    Logger.log('doGet called with parameters: ' + JSON.stringify(e.parameter));
+    // Safe parameter access - e may be undefined when called from editor
+    const params = e?.parameter || {};
+    Logger.log('doGet called with parameters: ' + JSON.stringify(params));
 
     // Build HTML directly without scriptlet processing
     const stylesheet = HtmlService.createHtmlOutputFromFile('stylesheet').getContent();
@@ -19,7 +21,7 @@ function doGet(e: GoogleAppsScript.Events.DoGet) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRM V10</title>
+  <title>CRM V11</title>
   ${stylesheet}
 </head>
 <body>
@@ -29,7 +31,7 @@ function doGet(e: GoogleAppsScript.Events.DoGet) {
 </html>`;
 
     return HtmlService.createHtmlOutput(html)
-      .setTitle('CRM V10')
+      .setTitle('CRM V11')
       .addMetaTag('viewport', 'width=device-width, initial-scale=1')
       .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
   } catch (error: any) {

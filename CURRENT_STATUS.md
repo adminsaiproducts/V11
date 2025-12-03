@@ -5,9 +5,9 @@
 | 項目 | 値 |
 | :--- | :--- |
 | プロジェクト名 | CRM V11 System |
-| GAS Script ID | `1_4EVl4Rtsn1b4q0gmxveXEZOi2OCVSJh-lmYES7IcV7x4X-ybw4dXsj9` |
-| GAS Editor URL | https://script.google.com/d/1_4EVl4Rtsn1b4q0gmxveXEZOi2OCVSJh-lmYES7IcV7x4X-ybw4dXsj9/edit |
-| Web App URL | https://script.google.com/macros/s/AKfycbydiCwtRQ1oO_4Sg-EqcFAr1YdOdlefI6oIOPuXG4RCtOMah3TZJ9vmWrwlyr3ejWzj5Q/exec |
+| GAS Script ID | `1VfMFCIYmI_tmh0BCTMxhKiNYdQC7fRImlKktZjC5T0tHTd4zN5trZ8nT` |
+| GAS Editor URL | https://script.google.com/d/1VfMFCIYmI_tmh0BCTMxhKiNYdQC7fRImlKktZjC5T0tHTd4zN5trZ8nT/edit |
+| Web App URL | https://script.google.com/macros/s/AKfycbxLcV5Kt-8BGZZ_X8Hac-bunXTUmVC6AYdh8PjweN9slnofyNAvgmAfXltQS5SbGRV2HQ/exec |
 | GitHub Repository | https://github.com/adminsaiproducts/V11 |
 | Firestore Database | `crm-database-v9` (GCP: `crm-appsheet-v7`) |
 
@@ -95,3 +95,6 @@ dist/
 | 2025-12-03 | SETUP | GASプロジェクト作成 (clasp create) | ✅ Done |
 | 2025-12-03 | FIX | gas-build.js修正（assetsディレクトリパス） | ✅ Done |
 | 2025-12-03 | DEPLOY | 初回デプロイ成功 (v1) | ✅ Done |
+| 2025-12-03 | FIX | doGet関数のパラメータ安全対策（e?.parameter） | ✅ Done |
+| 2025-12-03 | SETUP | 新GASプロジェクト再作成（旧IDが無効になったため） | ✅ Done |
+| 2025-12-03 | DEPLOY | V11 doGet fix (v1) デプロイ完了 | ✅ Done |
